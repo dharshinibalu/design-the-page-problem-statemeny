@@ -1,0 +1,14 @@
+.cardS{
+    width: 180px;
+    height: 200px;
+     position:relative;
+     z-index: 0;
+     border-radius: 5px;
+
+}
+img{
+   width: 100%;
+   height: 100%;
+   object-fit:cover;
+    object-position: center 95%;
+}

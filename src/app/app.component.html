@@ -1,5 +1,54 @@
 <div class="container-fluid">
   <app-titlebar></app-titlebar>
   <app-home></app-home>
+  <div class="card_title"><div><h3>Featured Coworking Space</h3></div><div style="display:flex;flex-direction:row;justify-content: space-around;">View<img src="assets/images/Layer 2.svg" width="40px" height="20px"> </div></div>
+<div class="card">
+
+  <app-card *ngFor="let card of cards" [address]="card.address" [del_rate]="card.del_rate" [imageUrl]="card.imageUrl" [internet]="card.internet" [Star]="card.Star" [yes]="card.yes" [online]="card.online" [offer]="card.offer" [rate]="card.rate" ></app-card>
+
 </div>
-<app-card></app-card>
+<div class="box_4">
+  <div style="font-size: 2rem;">Enterprise Coworking™ Our <br> Trademark Says It All</div>
+  <div style="font-size: 0.8rem">Dui ligula interdum tortor, at pretium ligula quam ut est. Ut mollis nisi quis magna hendrerit <br>vulputate. Fusce sagittis rhoncus tortor.</div>
+</div>
+<div class="box5"style="display: flex;flex-direction:row;align-items:center;justify-content:space-around;">
+<div>
+  <div class="wifi">
+    <div style="display: flex;flex-direction:row;align-items:center;"> <div><img src="assets/images/wifi-router.svg" style="width:65px ;color: #FF6E00;"></div><div style="margin-left:20px;">High Speed Wifi</div></div><br>
+    <div>Work from any corner on the entire floor without any interruption. Work from any corner <br>on the entire floor without any interruption</div>
+</div>
+  <div class="tea" style="background-color: #FF6E00;padding: 10px;">
+    <div style="display: flex;flex-direction:row;align-items:center;"> <div><img src="assets/images/coffee.svg"></div>
+    <div style="margin-left:20px;">All day Tea/Coffee</div></div><br>      
+    <div>Work from any corner on the entire floor without any interruption. Work from any corner<br> on the entire floor without any interruption</div>
+  </div>
+  <div class="zone" style="padding: 10px;">
+    <div style="display: flex;flex-direction:row;align-items:center;"> <div><img src="assets/images/armchair.svg"></div><div style="margin-left:20px;">Breakout Zone</div></div><br>
+    <div>Work from any corner on the entire floor without any interruption. Work from any corner on <br>the entire floor without any interruption</div>
+  </div>
+ 
+</div> 
+<div class="image">
+  <div class="relative_card" style="padding: 10px;">   
+    <img class="bg-img" src="assets/images/team-meeting-hand-shake.png" alt="image">      
+  </div>
+
+</div>
+ 
+
+
+ </div>
+ <div style="margin-top:2rem">
+<h3>Space Around the World</h3>
+</div>
+ <div class="box6" >
+  <app-image-card *ngFor ="let imgs of cardss" [url]="imgs.url" [name]="imgs.name" [text]="imgs.text">
+
+  </app-image-card>
+ </div>
+ <div class="card_title"><div><h3>Your Sastification is our priority </h3></div><div style="display:flex;flex-direction:row;justify-content: space-around;">View<img src="assets/images/Layer 2.svg" width="40px" height="20px"> </div></div>
+<div class="card">
+
+  <app-card *ngFor="let card of cards" [address]="card.address" [del_rate]="card.del_rate" [imageUrl]="card.imageUrl" [internet]="card.internet" [Star]="card.Star" [yes]="card.yes" [online]="card.online" [offer]="card.offer" [rate]="card.rate" ></app-card>
+
+</div>
