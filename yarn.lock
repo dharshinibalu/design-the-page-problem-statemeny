@@ -200,6 +200,13 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/material@^14.2.0":
+  version "14.2.0"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-14.2.0.tgz#915a39bd7c6434ac2465964abb93cecd6034e5d7"
+  integrity sha512-Lh7Ccc6zi5ClFnr5w1ZFVHb5QnOye1si0xWvS5nMQG3e0OPFAt0oOhjILFIBMK7n2jq4kv6erqNX2fLkyRvTQw==
+  dependencies:
+    tslib "^2.3.0"
+
 "@angular/platform-browser-dynamic@^14.0.0":
   version "14.2.0"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-14.2.0.tgz#7d6c44c63628b760eef4fdf99d09fc28f62e92b5"
@@ -2067,6 +2074,11 @@ boolbase@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==
+
+bootstrap@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.0.tgz#838727fb60f1630db370fe57c63cbcf2962bb3d3"
+  integrity sha512-qlnS9GL6YZE6Wnef46GxGv1UpGGzAwO0aPL1yOjzDIJpeApeMvqV24iL+pjr2kU4dduoBA9fINKWKgMToobx9A==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
