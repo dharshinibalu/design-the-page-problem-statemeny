@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './resuable/card/card.component';
+import { TitlebarComponent } from './constant/titlebar/titlebar.component';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    TitlebarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
